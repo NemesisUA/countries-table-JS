@@ -1,12 +1,13 @@
 # countries-table-JS
 
-JS, work with DOM, tables, sorting
+JS, work with DOM, tables, sorting algorithmes
 
 ## Watch deploy: https://nemesisua.github.io/countries-table-JS/
 
 Screen of implementation:
 
-![image](https://github.com/NemesisUA/countries-table-JS/assets/70847593/4523b8e2-c58d-4fe4-8f2f-2a2f488a3fab)
+![image](https://github.com/NemesisUA/countries-table-JS/assets/70847593/99acc2da-f46c-46fe-b2d7-998b0e4bafa8)
+
 
 ## TASK
 
