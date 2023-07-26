@@ -183,7 +183,7 @@ function getRow(country) {
 
     const img = document.createElement('img');
     img.alt = `${country.name} flag`;
-    img.src = country.flagURL;
+    img.src = "https://flagsapi.com/" + (country.flagURL).slice(28, 30).toUpperCase() + "/flat/64.png";
             
     row.innerHTML = `
         <td>${country.name}</td>
