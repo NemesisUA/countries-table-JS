@@ -89,7 +89,7 @@ const externalService = {};
     },
     {
       name: 'United States',
-      flagURL: 'https://www.countryflags.io/um/flat/64.png',
+      flagURL: 'https://www.countryflags.io/us/flat/64.png',
       region: _regionsList.na,
       area: 9372610,
       capital: 'Washington D.C.',
@@ -243,9 +243,9 @@ const externalService = {};
   module.getRegionsList = () => Object.values(_regionsList);
   module.getLanguagesList = () => [
     ..._countriesList.reduce((languagesList, country) => {
-     [...Object.values(country.languages)];
+    const countryLanguages = [...Object.values(country.languages)];
 
-      
+     return languagesList.add(...countryLanguages);
     }, new Set()),
   ];
 })(externalService);
